@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión Hospitalaria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gestión Hospitalaria</h1>
+    </header>
+    <section>
+        <h2>Lista de Usuarios</h2>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Tipo</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Juan Pérez</td>
+                <td>Admin</td>
+            </tr>
+            <!-- Aquí se agregarían más filas de usuarios desde la base de datos -->
+        </table>
+    </section>
+    <section>
+        <h2>Lista de Pacientes</h2>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>DNI</th>
+                <th>Teléfono</th>
+                <th>Obra Social</th>
+                <th>Historia Clínica</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Maria García</td>
+                <td>López</td>
+                <td>12345678</td>
+                <td>555-1234</td>
+                <td>OSDE</td>
+                <td>12345</td>
+            </tr>
+            <!-- Aquí se agregarían más filas de pacientes desde la base de datos -->
+        </table>
+    </section>
+</body>
+</html>
